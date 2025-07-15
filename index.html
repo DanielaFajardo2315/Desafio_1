@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-CO">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,7 +28,7 @@
             <a href="#">Gimnasios en tu zona</a>
           </li>
           <li>
-            <a href="#">Contactanos</a>
+            <a href="#form">Contactanos</a>
           </li>
         </ul>
       </nav>
@@ -203,6 +203,163 @@
             />
           </div>
         </div>
+      </section>
+      <section class="peso_ideal">
+        <h2 class="h2_consider">Tabla de peso ideal</h2>
+        <div class="tabla_peso">
+          <table>
+            <tr class="encabezado">
+              <th>Altura (Metros)</th>
+              <th>Mujeres (Kg)</th>
+              <th>Hombres (Kg)</th>
+            </tr>
+            <tr class="celdas">
+              <td>1.40</td>
+              <td>40-53</td>
+              <td></td>
+            </tr>
+            <tr class="celdas">
+              <td>1.45</td>
+              <td>42-54</td>
+              <td></td>
+            </tr>
+            <tr class="celdas">
+              <td>1.50</td>
+              <td>43-55</td>
+              <td></td>
+            </tr>
+            <tr class="celdas">
+              <td>1.52</td>
+              <td>44-56</td>
+              <td></td>
+            </tr>
+            <tr class="celdas">
+              <td>1.54</td>
+              <td>44-57</td>
+              <td></td>
+            </tr>
+            <tr class="celdas">
+              <td>1.56</td>
+              <td>45-58</td>
+              <td></td>
+            </tr>
+            <tr class="celdas">
+              <td>1.58</td>
+              <td>46-59</td>
+              <td>51-64</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.60</td>
+              <td>48-61</td>
+              <td>52-65</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.62</td>
+              <td>49-62</td>
+              <td>53-66</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.64</td>
+              <td>50-64</td>
+              <td>54-67</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.66</td>
+              <td>51-65</td>
+              <td>55-69</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.68</td>
+              <td>52-66</td>
+              <td>56-71</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.70</td>
+              <td>53-67</td>
+              <td>58-73</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.72</td>
+              <td>55-69</td>
+              <td>59-74</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.74</td>
+              <td>56-70</td>
+              <td>60-75</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.76</td>
+              <td>58-72</td>
+              <td>62-77</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.78</td>
+              <td>59-74</td>
+              <td>64-79</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.80</td>
+              <td></td>
+              <td>65-80</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.82</td>
+              <td></td>
+              <td>66-82</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.84</td>
+              <td></td>
+              <td>67-84</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.86</td>
+              <td></td>
+              <td>69-86</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.88</td>
+              <td></td>
+              <td>71-88</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.90</td>
+              <td></td>
+              <td>73-90</td>
+            </tr>
+            <tr class="celdas">
+              <td>1.92</td>
+              <td></td>
+              <td>75-93</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="form">
+        <h2 class="h2_consider">Contactanos</h2>
+          <div class="formulario">
+            <form action="#form">
+              <label for="name">Nombres</label><br>
+              <input type="text" id="name" name="name" required><br>
+              <label for="correo">Correo electrónico</label><br>
+              <input type="email" name="correo" id="correo" required><br>
+              <label for="ciudad">Ciudad</label><br>
+              <input type="text" name="ciudad" id="ciudad" required><br>
+              <label for="telefono">Teléfono</label><br>
+              <input type="number" name="telefono" id="telefono" required><br>
+              <label for="servicio">Servicio de interés</label><br>
+              <select name="servicio" id="servicio">
+                <option value="" selected="true" disabled="disabled">Seleccione el servicio</option>
+                <option value="opcion1">Creación de rutinas</option>
+                <option value="opcion2">Acompañamiento</option>
+                <option value="opcion3">Servicio especializado</option>
+                <option value="opcion4">Nutrición</option>
+                <option value="opcion5">Otros</option>
+              </select><br>
+              <input type="submit" value="Enviar" id="boton">
+            </form>
+          </div>
       </section>
     </main>
     <footer>
